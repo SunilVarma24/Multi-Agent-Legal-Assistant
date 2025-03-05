@@ -38,13 +38,13 @@ User Query: "What are the steps to file a lawsuit in India?"
 
 - Summarization Agent converts the legal content into:
 
-- - Step 1: Prepare necessary documents.
+ - Step 1: Prepare necessary documents.
 
-- - Step 2: File a petition in court.
+ - Step 2: File a petition in court.
 
-- - Step 3: Serve notice to the opposing party.
+ - Step 3: Serve notice to the opposing party.
 
-- - Step 4: Attend court hearings.
+ - Step 4: Attend court hearings.
 
 ## Installation
 
