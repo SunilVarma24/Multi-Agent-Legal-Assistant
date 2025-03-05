@@ -53,7 +53,7 @@ User Query: "What are the steps to file a lawsuit in India?"
 
 To set up the project, install the following dependencies:
 ```bash
-pip install langchain langchain-core langchain-openai langchain-google-genai langgraph chromadb PyMuPDF streamlit
+pip install langchain langchain-core langchain-community langchain-openai langgraph faiss-cpu PyMuPDF streamlit sentence-transformers
 ```
 ## Usage
 1. Load the legal PDF documents.
