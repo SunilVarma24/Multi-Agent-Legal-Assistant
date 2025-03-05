@@ -12,7 +12,7 @@ The Multi-Agent Legal Assistant leverages multi-agent architecture to fetch lega
 6. Conclusion
 
 ## Introduction
-Legal documents often contain complex language, making it difficult for users to understand the information. This chatbot automates the process of fetching relevant legal information and simplifying it into easy-to-understand summaries.
+Legal documents often contain complex language, making it difficult for users to understand the information. This assistant automates the process of fetching relevant legal information and simplifying it into easy-to-understand summaries.
 
 ## System Design
 
