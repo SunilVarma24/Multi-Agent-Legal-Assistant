@@ -25,8 +25,8 @@ os.makedirs(CHROMA_PATH, exist_ok=True)
 # Load and process legal documents
 @st.cache_resource
 def load_and_process_documents():
-    guide_pdf_path = "Guide-to-Litigation-in-India.pdf"
-    corporate_pdf_path = "PDFFile5b28c9ce64e524.54675199.pdf"
+    guide_pdf_path = "data/Guide-to-Litigation-in-India.pdf"
+    corporate_pdf_path = "data/Legal-Compliance-&-Corporate-Laws-by-ICAI.pdf"
     loader_guide = PyMuPDFLoader(guide_pdf_path)
     loader_corporate = PyMuPDFLoader(corporate_pdf_path)
     all_docs = loader_guide.load() + loader_corporate.load()
