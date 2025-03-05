@@ -1,0 +1,9 @@
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langgraph
+faiss-cpu
+PyMuPDF
+streamlit
+sentence-transformers
