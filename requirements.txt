@@ -8,3 +8,4 @@ chromadb
 PyMuPDF
 streamlit
 sentence_transformers
+sqlite3
