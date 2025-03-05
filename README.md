@@ -47,7 +47,7 @@ User Query: "What are the steps to file a lawsuit in India?"
 - Step 4: Attend court hearings.
 
 3. Response
-Filing a lawsuit in India involves preparing legal documents, submitting a petition in court, serving a notice to the opposing party, and attending hearings. Would you like more details on any step?
+- Filing a lawsuit in India involves preparing legal documents, submitting a petition in court, serving a notice to the opposing party, and attending hearings. Would you like more details on any step?
 
 ## Installation
 
