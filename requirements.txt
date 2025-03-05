@@ -4,8 +4,7 @@ langchain-community
 langchain-openai
 langchain-google-genai
 langgraph
-chromadb
-pysqlite3-binary
+faiss-cpu
 PyMuPDF
 streamlit
 sentence_transformers
