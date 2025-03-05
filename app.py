@@ -5,7 +5,7 @@ import operator
 from langchain.document_loaders import PyMuPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import Chroma
+from langchain.vectorstores import FAISS
 from langchain_core.messages import BaseMessage, AIMessage, HumanMessage
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
@@ -15,12 +15,6 @@ from langgraph.graph import END, StateGraph
 st.set_page_config(page_title="Legal Assistant Chatbot", layout="wide")
 st.title("📜 AI-Powered Legal Assistant")
 st.write("Ask legal questions and receive simplified explanations.")
-
-# Create a persistent directory for ChromaDB
-CHROMA_PATH = "./chroma_db"
-
-# Ensure the Chroma directory exists
-os.makedirs(CHROMA_PATH, exist_ok=True)
 
 # Load and process legal documents
 @st.cache_resource
@@ -34,7 +28,7 @@ def load_and_process_documents():
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=2500, chunk_overlap=300)
     chunks = text_splitter.split_documents(all_docs)
     embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5")
-    vector_store = Chroma.from_documents(chunks, embeddings, persist_directory=CHROMA_PATH, collection_name="legal_docs")
+    vector_store = FAISS.from_documents(chunks, embeddings)
     return vector_store
 
 vector_store = load_and_process_documents()
