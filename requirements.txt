@@ -5,6 +5,7 @@ langchain-openai
 langchain-google-genai
 langgraph
 chromadb
+pysqlite3-binary
 PyMuPDF
 streamlit
 sentence_transformers
