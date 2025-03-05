@@ -34,17 +34,20 @@ The system is designed with two key agents:
 
 User Query: "What are the steps to file a lawsuit in India?"
 
-- Query Agent retrieves the related sections from the documents.
+1. Query Agent retrieves the related sections from the documents.
 
-- Summarization Agent converts the legal content into:
+2. Summarization Agent converts the legal content into:
 
- - Step 1: Prepare necessary documents.
+- Step 1: Prepare necessary documents.
 
- - Step 2: File a petition in court.
+- Step 2: File a petition in court.
 
- - Step 3: Serve notice to the opposing party.
+- Step 3: Serve notice to the opposing party.
 
- - Step 4: Attend court hearings.
+- Step 4: Attend court hearings.
+
+3. Final Response
+Filing a lawsuit in India involves preparing legal documents, submitting a petition in court, serving a notice to the opposing party, and attending hearings. Would you like more details on any step?
 
 ## Installation
 
