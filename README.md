@@ -1,7 +1,7 @@
-# Multi-Agent Legal Chatbot
+# Multi-Agent Legal Assistant
 
 ## Project Overview
-The Multi-Agent Legal Chatbot leverages multi-agent architecture to fetch legal information from trusted sources and summarize complex legal topics into simple, clear responses. The system uses LangChain and LangGraph and is deployed via Streamlit for an interactive user interface.
+The Multi-Agent Legal Assistant leverages multi-agent architecture to fetch legal information from trusted sources and summarize complex legal topics into simple, clear responses. The system uses LangChain and LangGraph and is deployed via Streamlit for an interactive user interface.
 
 ## Table of Contents
 1. Introduction
