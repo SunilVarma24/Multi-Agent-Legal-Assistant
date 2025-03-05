@@ -28,7 +28,7 @@ def load_and_process_documents():
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=200)
     chunks = text_splitter.split_documents(all_docs)
     embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5")
-    vector_store = FAISS.from_documents(chunks, embeddings, persist_directory=CHROMA_PATH, collection_name="legal_docs")
+    vector_store = FAISS.from_documents(chunks, embeddings)
     return vector_store
 
 vector_store = load_and_process_documents()
