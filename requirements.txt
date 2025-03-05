@@ -1,3 +1,4 @@
+sqlite3
 langchain
 langchain-core
 langchain-community
@@ -8,4 +9,3 @@ chromadb
 PyMuPDF
 streamlit
 sentence_transformers
-sqlite3
