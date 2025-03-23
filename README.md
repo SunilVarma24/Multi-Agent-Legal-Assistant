@@ -3,14 +3,6 @@
 ## Project Overview
 The Multi-Agent Legal Assistant leverages multi-agent architecture to fetch legal information from trusted sources and summarize complex legal topics into simple, clear responses. The system uses LangChain and LangGraph and is deployed via Streamlit for an interactive user interface.
 
-## Table of Contents
-1. Introduction
-2. System Design
-3. Installation
-4. Usage
-5. Results
-6. Conclusion
-
 ## Introduction
 Legal documents often contain complex language, making it difficult for users to understand the information. This assistant automates the process of fetching relevant legal information and simplifying it into easy-to-understand summaries.
 
