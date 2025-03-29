@@ -1,0 +1,12 @@
+faiss-cpu==1.10.0
+ipython==9.0.2
+langchain==0.3.21
+langchain-community==0.3.20
+langchain-core==0.3.49
+langchain-openai==0.3.11
+langchain-text-splitters==0.3.7
+langgraph==0.3.21
+PyMuPDF==1.25.4
+PyYAML==6.0.2
+sentence-transformers==4.0.1
+streamlit==1.44.0
